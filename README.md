@@ -24,6 +24,11 @@ The framework follows the Page Object Model (POM) design pattern and supports:
 * Extent Reports
 
 ---
+## 🔄 Project Workflow
+
+<img width="5259" height="2191" alt="Project15Workflow drawio" src="https://github.com/user-attachments/assets/c5a78fed-b668-40a2-9b42-856ade6b3e28" />
+
+---
 
 ## 📂 Project Structure
 
