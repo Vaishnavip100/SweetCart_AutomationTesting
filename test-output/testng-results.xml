@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T16:14:50 IST" name="SweetShop Test Suite" finished-at="2026-04-24T16:15:28 IST" duration-ms="38107">
+    <groups>
+    </groups>
+    <test started-at="2026-04-24T16:14:50 IST" name="Login Module" finished-at="2026-04-24T16:15:07 IST" duration-ms="16573">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:14:51 IST" name="setup" finished-at="2026-04-24T16:14:56 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:14:56 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-24T16:14:58 IST" duration-ms="1457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[oneorder@sweetshop.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:14:58 IST" name="tearDown" finished-at="2026-04-24T16:14:58 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:14:58 IST" name="setup" finished-at="2026-04-24T16:15:01 IST" duration-ms="2876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:15:01 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-24T16:15:02 IST" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vaishnavi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:15:02 IST" name="tearDown" finished-at="2026-04-24T16:15:02 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:15:02 IST" name="setup" finished-at="2026-04-24T16:15:04 IST" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogout()[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:15:04 IST" name="testLogout" finished-at="2026-04-24T16:15:06 IST" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@51891008]" started-at="2026-04-24T16:15:06 IST" name="tearDown" finished-at="2026-04-24T16:15:07 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Module -->
+    <test started-at="2026-04-24T16:14:50 IST" name="Product Module" finished-at="2026-04-24T16:15:10 IST" duration-ms="19787">
+      <class name="tests.ProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:14:50 IST" name="setup" finished-at="2026-04-24T16:14:54 IST" duration-ms="3924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToBasketButton()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:14:54 IST" name="addToBasketButton" finished-at="2026-04-24T16:14:57 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToBasketButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:14:57 IST" name="tearDown" finished-at="2026-04-24T16:14:57 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:14:57 IST" name="setup" finished-at="2026-04-24T16:14:59 IST" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="categoryFilter()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:14:59 IST" name="categoryFilter" finished-at="2026-04-24T16:15:01 IST" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:15:01 IST" name="tearDown" finished-at="2026-04-24T16:15:02 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:15:02 IST" name="setup" finished-at="2026-04-24T16:15:03 IST" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productDetails()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:15:03 IST" name="productDetails" finished-at="2026-04-24T16:15:05 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:15:05 IST" name="tearDown" finished-at="2026-04-24T16:15:06 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:15:06 IST" name="setup" finished-at="2026-04-24T16:15:08 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productListing()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:15:08 IST" name="productListing" finished-at="2026-04-24T16:15:09 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productListing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@3cce57c7]" started-at="2026-04-24T16:15:09 IST" name="tearDown" finished-at="2026-04-24T16:15:10 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductTest -->
+    </test> <!-- Product Module -->
+    <test started-at="2026-04-24T16:15:10 IST" name="Account Module" finished-at="2026-04-24T16:15:15 IST" duration-ms="4919">
+      <class name="tests.AccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AccountTest@13df2a8c]" started-at="2026-04-24T16:15:10 IST" name="setup" finished-at="2026-04-24T16:15:12 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountAndOrderHistory()[pri:0, instance:tests.AccountTest@13df2a8c]" started-at="2026-04-24T16:15:12 IST" name="accountAndOrderHistory" finished-at="2026-04-24T16:15:15 IST" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountAndOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountTest@13df2a8c]" started-at="2026-04-24T16:15:15 IST" name="tearDown" finished-at="2026-04-24T16:15:15 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountTest -->
+    </test> <!-- Account Module -->
+    <test started-at="2026-04-24T16:15:15 IST" name="Navigation Module" finished-at="2026-04-24T16:15:23 IST" duration-ms="7320">
+      <class name="tests.NavigationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NavigationTest@51bf5add]" started-at="2026-04-24T16:15:15 IST" name="setup" finished-at="2026-04-24T16:15:19 IST" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigationAndStaticContent()[pri:0, instance:tests.NavigationTest@51bf5add]" started-at="2026-04-24T16:15:19 IST" name="navigationAndStaticContent" finished-at="2026-04-24T16:15:22 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationAndStaticContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NavigationTest@51bf5add]" started-at="2026-04-24T16:15:22 IST" name="tearDown" finished-at="2026-04-24T16:15:23 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NavigationTest -->
+    </test> <!-- Navigation Module -->
+    <test started-at="2026-04-24T16:15:08 IST" name="Basket Module" finished-at="2026-04-24T16:15:28 IST" duration-ms="20508">
+      <class name="tests.BasketTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:08 IST" name="setup" finished-at="2026-04-24T16:15:09 IST" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addMultipleProducts()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:09 IST" name="addMultipleProducts" finished-at="2026-04-24T16:15:13 IST" duration-ms="3692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:13 IST" name="tearDown" finished-at="2026-04-24T16:15:14 IST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:14 IST" name="setup" finished-at="2026-04-24T16:15:16 IST" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToBasketCount()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:16 IST" name="addToBasketCount" finished-at="2026-04-24T16:15:21 IST" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToBasketCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:21 IST" name="tearDown" finished-at="2026-04-24T16:15:21 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:21 IST" name="setup" finished-at="2026-04-24T16:15:23 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productDetailsInBasket()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:23 IST" name="productDetailsInBasket" finished-at="2026-04-24T16:15:25 IST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailsInBasket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:25 IST" name="tearDown" finished-at="2026-04-24T16:15:25 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:25 IST" name="setup" finished-at="2026-04-24T16:15:26 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeProduct()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:26 IST" name="removeProduct" finished-at="2026-04-24T16:15:28 IST" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BasketTest@747f281]" started-at="2026-04-24T16:15:28 IST" name="tearDown" finished-at="2026-04-24T16:15:28 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BasketTest -->
+    </test> <!-- Basket Module -->
+  </suite> <!-- SweetShop Test Suite -->
+</testng-results>
